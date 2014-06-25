@@ -1,4 +1,5 @@
-my-tabs
-=======
+seed-element
+================
 
-A tabs component using Polymer core-elements
+See the [component page](http://addyosmani.github.io/my-tabs) for more information.
+
