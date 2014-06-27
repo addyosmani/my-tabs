@@ -1,0 +1,29 @@
+<link rel="import" href="../polymer/polymer.html">
+<link rel="import" href="../polymer/layout.html">
+<link rel="import" href="../core-selector/core-selector.html">
+<!--
+A Polymer tabs element
+
+##### Example
+
+    <my-tabs selected="0">
+      <span>One</span>
+      <span>Two</span>
+      <span>Three</span>
+    </my-tabs>  
+
+@element my-tabs
+@blurb A Polymer tabs element
+@status alpha
+@homepage http://addyosmani.github.io/my-tabs
+-->
+<polymer-element extends="core-selector" name="my-tabs" noscript>
+
+  <template>
+    <link href="my-tabs.css" rel="stylesheet">
+    <div horizontal layout>
+      <shadow></shadow>
+    </div>
+  </template>
+
+</polymer-element>

@@ -1,0 +1,37 @@
+{
+  "name": "my-tabs",
+  "authors": [
+    "Addy Osmani <addyosmani@gmail.com>"
+  ],
+  "description": "A Polymer tabs element.",
+  "keywords": "seed, polymer, web-components",
+  "main": "my-tabs.html",
+  "license": "Apache2",
+  "homepage": "https://github.com/addyosmani/my-tabs/",
+  "ignore": [
+    "**/.*"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#~0.3.3",
+    "chai": "~1.9.1",
+    "mocha": "~1.19.0",
+    "core-selector": "Polymer/core-selector#~0.3.3"
+  },
+  "resolutions": {
+    "platform": ">=0.3.0 <1.0.0",
+    "core-component-page": ">=0.3.0 <1.0.0",
+    "polymer": ">=0.3.0 <1.0.0",
+    "core-selector": "~0.3.3",
+    "core-selection": ">=0.3.0 <1.0.0"
+  },
+  "_release": "049df0abf3",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "049df0abf3b67c5b50b18b47260884bc736d7ec9"
+  },
+  "_source": "git://github.com/addyosmani/my-tabs.git",
+  "_target": "master",
+  "_originalSource": "addyosmani/my-tabs",
+  "_direct": true
+}
