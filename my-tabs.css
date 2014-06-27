@@ -2,7 +2,7 @@
   font-family: 'Roboto', 'Arial', 'Helvetica', sans-serif;
 }
 
-polyfill-next-selector { content: ':host > *'; }
+polyfill-next-selector { content: '*'; }
 ::content > * {
   min-width: 60px;
   height: 60px;
@@ -13,7 +13,7 @@ polyfill-next-selector { content: ':host > *'; }
   color: #999;
 }
 
-polyfill-next-selector { content: ':host > .core-selected'; }
+polyfill-next-selector { content: '.core-selected'; }
 ::content > .core-selected {
   background: #5599FF;
   color: white;
